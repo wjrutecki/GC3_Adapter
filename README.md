@@ -11,4 +11,6 @@ A JSON array as documented at https://csc.protee-united.com/hc/en-us/articles/21
 
 To run
 ------
-You will need python. Clone the repo and run "listener.py". That should be everything you need.
+1. Make sure you have python installed. Download it at https://www.python.org/downloads/
+2. Clone the repo.
+3. Run the "listener.py". This can be done through Command Line/Terminal (py PATH_TO_FILE) *or* by opening the GC3_Adapter folder, right clicking on "listener.py", selecting *Open*, and then selecting python.
