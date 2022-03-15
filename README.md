@@ -12,5 +12,7 @@ A JSON array as documented at https://csc.protee-united.com/hc/en-us/articles/21
 To run
 ------
 1. Make sure you have python installed. Download it at https://www.python.org/downloads/
-2. Clone the repo.
+2. Download a zip of the repo and unzip it.
 3. Run the "listener.py". This can be done through Command Line/Terminal (py PATH_TO_FILE) *or* by opening the GC3_Adapter folder, right clicking on "listener.py", selecting *Open*, and then selecting python.
+4. Run TGC 2019 before using the GC3 monitor.
+5. Golf!
