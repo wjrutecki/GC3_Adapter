@@ -14,17 +14,17 @@ def translateMessage(inputMessage: json) -> json:
         "device":"EXT",
         "units":inputMessage['Units']},
     "data":{
-        "counter": inputMessage['ShotNumber'],
-        "shotnumber":inputMessage['ShotNumber'],
-        "clubspeed":inputMessage['ClubData']['Speed'],
-        "clubface":inputMessage['ClubData']['FaceToTarget'],
-        "clubpath":inputMessage['ClubData']['AngleOfAttack'],
+        "counter": str(inputMessage['ShotNumber']),
+        "shotnumber":str(inputMessage['ShotNumber']),
+        "clubspeed":str(inputMessage['ClubData']['Speed']),
+        "clubface":str(inputMessage['ClubData']['FaceToTarget']),
+        "clubpath":str(inputMessage['ClubData']['AngleOfAttack']),
         "sweetspot":"0",
-        "ballspeed":inputMessage['BallData']['Speed'],
-        "ballpath":inputMessage['BallData']['HLA'],
-        "launchangle":inputMessage['BallData']['VLA'],
-        "backspin":inputMessage['BallData']['BackSpin'],
-        "sidespin":inputMessage['BallData']['SideSpin'],
+        "ballspeed":str(inputMessage['BallData']['Speed']),
+        "ballpath":str(inputMessage['BallData']['HLA']),
+        "launchangle":str(inputMessage['BallData']['VLA']),
+        "backspin":str(inputMessage['BallData']['BackSpin']),
+        "sidespin":str(inputMessage['BallData']['SideSpin']),
         "drag":"1.0"}
 }
     return outputMessage
